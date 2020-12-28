@@ -13,7 +13,7 @@ from datetime import datetime
 import pytz
 import numpy as np
 
-owm = OWM('6d9a5322c06c0fc360ad96f1d2fc5c27')
+owm = OWM('api-key')
 mgr = owm.weather_manager()
 
 # observation = mgr.weather_at_place('Katy,US')
